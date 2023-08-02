@@ -3,4 +3,4 @@ import pandas as pd
 import streamlit as st
 
 df = pd.read_csv('Deleted Domains.csv')
-AgGrid(df)
+st.dataframe(data=df)
